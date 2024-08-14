@@ -1,0 +1,16 @@
+/* styles.css */
+@keyframes cardAnimate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.card-animate {
+  animation: cardAnimate 1s ease-in-out infinite;
+}
